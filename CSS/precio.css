@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}    
+
+
+.imagen {
+
+    width: 250px;
+    height: 150px;
+    margin: 0 15px;
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+.card {
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/**CELULAR**/
+@media (min-width 767px) {}
+
+/**TABLET**/
+@media (min-width: 768px) and (max-width: 900px) {}
+
+/**COMPUTADORA**/
+@media (min-width 991px) {}

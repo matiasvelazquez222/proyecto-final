@@ -1,0 +1,34 @@
+body {
+
+    background-color: black;
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.contenedor {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1 {
+
+    color: azure;
+    font-size: ARIAL;
+    font-size: 50px;
+}
+
+/**CELULAR**/
+@media (min-width 767px) {}
+
+/**TABLET**/
+@media (min-width: 768px) and (max-width: 900px) {}
+
+/**COMPUTADORA**/
+@media (min-width 991px) {}

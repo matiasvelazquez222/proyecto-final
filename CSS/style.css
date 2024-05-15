@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    width: 100%;
+    z-index: 100
+}
+
+.navbar {
+
+    display: flex;
+    margin: 10px;
+}
+
+.logo {
+
+    margin-left: 30px;
+}
+
+.logo a {
+
+    text-decoration: nome;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: nome;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+
+    height: 100vh !important;
+    background: url(../imagenes/fondo-principal.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: 10px;
+}
+
+h4 {
+
+    color: #fff;
+}
+
+h3 {
+
+    color: #fff;
+}
+
+p {
+
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.btn {
+
+    display: incline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+
+    background: none;
+}
+
+.btn-home {
+
+    display: flex;
+}
+
+.btn-home a {
+
+    margin: 0 10px;
+}
+
+.content {
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    height: 100vh;
+    background: black;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.sau {
+    height: 100vh;
+    padding: 30px;
+    background: black
+}
+
+.box-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about {
+    height: 100vh;
+    background: url(../imagenes/fondo-principal.jpg) no-repeat center;
+    background-attachment: fidex;
+    background-size: cover;
+    text-align: center;
+}
+
+.ubicacion {
+
+    height: 100vh;
+
+    
+    background-color: rgb(114, 24, 114);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.contenedor {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+
+/**CELULAR**/
+@media (min-width 767px) {}
+
+/**TABLET**/
+@media (min-width: 768px) and (max-width: 900px) {}
+
+/**COMPUTADORA**/
+@media (min-width 991px) {}
